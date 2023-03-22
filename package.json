@@ -7,9 +7,9 @@
     "cypress-browser-permissions": "^1.1.0"
   },
   "scripts": {
-    "npm:headlles": "npx cypress run --env allure=true",
-    "npm:open": "yarn cypress run --env allure=true",
-    "yarn:headlles": "npx cypress open --env allure=true",
+    "npm:headless": "npx cypress run --env allure=true",
+    "npm:open": "npx cypress open --env allure=true",
+    "yarn:headless": "yarn cypress run --env allure=true",
     "yarn:open": "yarn cypress open --env allure=true"
   },
   "name": "cypressChallenge",
