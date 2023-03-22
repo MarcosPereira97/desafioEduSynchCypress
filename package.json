@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "cypress": "^12.8.1",
+    "cypress-if": "^1.10.4"
+  },
+  "dependencies": {
+    "cypress-browser-permissions": "^1.1.0"
+  },
+  "name": "cypressChallenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Marcos Pereira",
+  "license": "MIT"
+}

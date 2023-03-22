@@ -1,0 +1,12 @@
+{
+  "listaUsuarios": {
+    "usuario": "qatest@edusynch.com",
+    "senha": "qa12345"
+  },
+  "options": {
+    "a": "A",
+    "b": "B",
+    "c": "C",
+    "d": "D"
+  }
+}
