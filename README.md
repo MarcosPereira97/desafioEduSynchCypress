@@ -15,10 +15,12 @@ Realizar o download da versão recomendada através do link: [nodejs.org](<https
 
 Rodar o comando da sua preferência para instalar o Cypress:
 
+- NPM:
 ```Bash
 npm install cypress --save-dev
 ```
 ou
+- YARN:
 ```Bash
 yarn add cypress --dev
 ```
@@ -27,12 +29,20 @@ yarn add cypress --dev
 
 O report utilizado é um plugin desenvolvido por um terceiro: [Shelex/cypress-allure-plugin](<https://github.com/Shelex/cypress-allure-plugin>).
 
-Necessita instalação do JAVA e configuração do JAVA_HOME nas variáveis de ambiente.
+Necessita instalação do JAVA e configuração do JAVA_HOME nas variáveis de ambiente após finalizado executar o comando abaixo para iniciar a instalação do plugin.
 
 - [Java 18](<https://www.oracle.com/java/technologies/javase/jdk18-archive-downloads.html>)
 
 - [Guia instalação JAVA_HOME variáveis de ambiente](<https://confluence.atlassian.com/confbr1/configurando-a-variavel-java_home-no-windows-933709538.html>).
 
+
+```Bash
+npm i -D @shelex/cypress-allure-plugin
+```
+
+```Bash
+yarn add -D @shelex/cypress-allure-plugin
+```
 
 ## Executando os testes
 
