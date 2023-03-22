@@ -41,19 +41,19 @@ Após tudo instalado e devidamente configurado basta rodar os comandos no termin
 Para executar em modo gráfico execute um dos comandos abaixo:
 
 ```Bash
-npm run cy:open
+npm run npm:open
 ```
 ```Bash
-yarn run cy:open
+yarn run yarn:open
 ```
 
 Para executar em modo headless execute um dos comandos abaixo:
 
 ```Bash
-npm run cy:headless
+npm run npm:headless
 ```
 ```Bash
-yarn run cy:headless
+yarn run yarn:headless
 ```
 
 ## Abrindo o report
