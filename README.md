@@ -71,7 +71,7 @@ yarn run yarn:headless
 Para visualizar o report do Allure, executar o comando abaixo, uma aba do navegador ira se abrir automaticamente com o report.
 
 ```Bash
-allure open
+allure serve
 ```
 
 >This is a challenge by [EduSynch](<https://edusynch.com/>)
