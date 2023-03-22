@@ -52,15 +52,14 @@ Cypress.Commands.add('infinitesNext', () => {
     cy.contains('button', 'I understand and agree.')
         .should('be.enabled')
         .click({ force: true })
-    cy.contains('button', 'Continue')
-        .as('continue')
-        .should('be.enabled')
-        .click({ force: true })
-    cy.get('@continue')
-        .wait(500)
-        .should('be.visible')
-        .and('be.enabled')
-        .click({ force: true })
+    for (let n = 0; n < 2; n++) {
+        cy.contains('button', 'Continue')
+            .as('continue')
+            .wait(1000)
+            .should('not.be.hidden')
+            .and('be.enabled')
+            .click()
+    }
 })
 Cypress.Commands.add('selectReply', (alternatives) => {
     cy.get('.MuiContainer-root > :nth-child(2) > .MuiTypography-root')
@@ -88,14 +87,16 @@ Cypress.Commands.add('selectReply', (alternatives) => {
                                 })
                             cy.contains('button', 'Back')
                                 .next()
-                                .click({ force: true })
+                                .wait(500)
+                                .click()
                         }
                     });
                 } else {
                     //you get here if the button DOESN'T EXIST
                     cy.contains('button', 'Back')
                         .next()
-                        .click({ force: true })
+                        .wait(500)
+                        .click()
                 }
             })
         }
