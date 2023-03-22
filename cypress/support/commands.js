@@ -57,6 +57,7 @@ Cypress.Commands.add('infinitesNext', () => {
         .should('be.enabled')
         .click()
     cy.get('@continue')
+        .wait(500)
         .should('be.visible')
         .and('be.enabled')
         .click()
@@ -113,6 +114,7 @@ Cypress.Commands.add('finishingTest', () => {
             expect($txt).to.be.visible
             expect($txt).to.have.text('This is the end of the section.')
         })
+    cy.screenshot()
 })
 Cypress.Commands.add('backToHome', () => {
     cy.get('@continue')
@@ -138,4 +140,5 @@ Cypress.Commands.add('generatingCertificate', () => {
             expect($txt).to.be.visible
             expect($txt).to.have.text('Proficiency Achievement Certificate')
         })
+    cy.screenshot()
 })
