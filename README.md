@@ -38,22 +38,20 @@ Necessita instalação do JAVA e configuração do JAVA_HOME nas variáveis de a
 
 Após tudo instalado e devidamente configurado basta rodar os comandos no terminal para executar os testes:
 
-Para executar em modo gráfico execute o comando abaixo:
+Para executar em modo gráfico execute um dos comandos abaixo:
 
 ```Bash
 npm run cy:open
 ```
-ou
 ```Bash
 yarn run cy:open
 ```
 
-Para executar em modo headless execute o comando abaixo:
+Para executar em modo headless execute um dos comandos abaixo:
 
 ```Bash
 npm run cy:headless
 ```
-ou
 ```Bash
 yarn run cy:headless
 ```
