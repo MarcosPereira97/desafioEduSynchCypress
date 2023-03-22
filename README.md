@@ -9,7 +9,7 @@
 
 ### Instalação do Node JS
 
-Realizar o download da versão recomendada através do [Link](<https://nodejs.org/en/>) 
+Realizar o download da versão recomendada através do Link [nodejs.org](<https://nodejs.org/en/>) 
 
 ### Instalação Cypress
 
