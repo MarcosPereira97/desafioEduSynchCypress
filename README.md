@@ -9,7 +9,8 @@
 
 ### Instalação do Node JS
 
-Realizar o download da versão recomendada através do link: [nodejs.org](<https://nodejs.org/en/>) 
+Realizar o download da versão recomendada através do link: 
+- [nodejs.org](<https://nodejs.org/en/>) 
 
 ### Instalação Cypress
 
@@ -27,7 +28,8 @@ yarn add cypress --dev
 
 ## Allure-Reports
 
-O report utilizado é um plugin desenvolvido por um terceiro: [Shelex/cypress-allure-plugin](<https://github.com/Shelex/cypress-allure-plugin>).
+O report utilizado é um plugin desenvolvido por um terceiro: 
+- [Shelex/cypress-allure-plugin](<https://github.com/Shelex/cypress-allure-plugin>).
 
 Necessita instalação do JAVA e configuração do JAVA_HOME nas variáveis de ambiente após finalizado executar o comando abaixo para iniciar a instalação do plugin.
 
